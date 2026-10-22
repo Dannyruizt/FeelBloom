@@ -56,16 +56,12 @@ sin dependencias nuevas).
 
 ## Decisiones frente al prototipo de Figma
 
-- **Texto de los botones oscuro** en lugar de blanco: blanco sobre `#B8A1E3` no cumple el contraste de RNF-11.
-  Se cambia en `FeelColors.OnButton` (`ui/theme/Theme.kt`).
+- **Texto de los botones oscuro** Se cambia en `FeelColors.OnButton` (`ui/theme/Theme.kt`).
 - **Botones y chips de 36 dp** de alto (en Figma 22 dp) para tener un área táctil razonable.
-- **Icono del menú:** el icono de Figma no se pudo descargar; se usa el icono de menú de Material.
-- **Eliminar:** el prototipo tiene una pantalla "Seleccione el registro que desea eliminar" sin botón de entrada.
-  Aquí se elimina desde el formulario de edición (botón *Eliminar*) o tocando un registro del Historial.
+- **Eliminar:** Aquí se elimina desde el formulario de edición (botón *Eliminar*) o tocando un registro del Historial.
 - **Registros de días anteriores:** se editan o eliminan tocándolos en el Historial; "Editar registro" en Inicio
   lista solo los de hoy, como en el prototipo.
 - **Filtro por periodo** (RF-08) aparece en "Ver registro completo" del Historial y en Estadísticas.
-  Figma no lo dibuja, pero el requerimiento lo pide.
 
 ## Fuente
 
